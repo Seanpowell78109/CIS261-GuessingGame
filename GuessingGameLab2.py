@@ -2,9 +2,9 @@ import random
 
 def play_game():
   """Plays a number guessing game."""
-  randomNumber = random.randrange(1, 100)
+  randomNumber = random.randrange(1, 10)
   numberOfGuesses = 1
-  guess = int(input("Guess a number between 1 to 100: "))
+  guess = int(input("Guess a number between 1 to 10: "))
 
   while guess != randomNumber:
       numberOfGuesses += 1
